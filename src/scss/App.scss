@@ -1,0 +1,67 @@
+.BarberShop{
+    background: url(#{'../pictures/sharp.jpg'});
+    background-repeat: no-repeat;
+    background-position: top center; 
+    min-height: 55vh;  
+    display: inline-flexbox; 
+    margin-top: 5vh;
+} 
+
+.footer{   
+  
+    
+  text-align: center;
+  flex-direction: column;
+  font-weight: bold;
+  position: relative;
+  bottom: 5px; 
+  right:25%;
+  left:25%;
+  width: 50%;
+  border: 3px solid #0767c0; 
+  align-content: center; 
+  justify-content: center;
+    @media only screen and (min-width: 360px) and (max-width: 1040px){    
+        .footer{ 
+        #inner{
+           position: relative;
+            h2{
+                 text-shadow: 2px 1px #e26e6e;
+            }
+        }  
+    }
+    }
+ 
+} 
+
+   @media only screen and (min-width: 360px) and (max-width: 1040px){  
+    .BarberShop{
+    background: url(#{'../pictures/smaller.jpg'}) !important;
+    background-repeat: no-repeat !important;
+    background-position: center top;    
+    margin-bottom: 0% !important;  
+    
+    }
+} 
+
+
+@media only screen and (min-width: 360px) and (max-width: 1040px){    
+    .footer{    
+        margin: 0 !important;  
+        font-weight: bold;
+        position: relative;
+        bottom: 5px; 
+        right:25%;
+        left:0%;
+        width: 100%;
+        border: 3px solid #0767c0; 
+        align-content: center;
+        display: flex;
+        #inner{
+           position: absolute;
+            h2{
+                 text-shadow: 2px 1px #e26e6e;
+            }
+        } 
+    } 
+}
